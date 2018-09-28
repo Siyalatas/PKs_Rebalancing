@@ -58,7 +58,8 @@
               "item_spawn_iterations": 1,                 "//": "number of times that the item spawning will be called",
               "clear_groundcover": false,                 "//": "if set to true, clear all previously defined 'groundcover' for this terrain. only relevant for 'region_overlay' that override these settings",
               "groundcover": {                            "//": "weighted list of terrain types placed as groundcover before anything else. higher values are more frequent",
-                  "t_grass": 3,
+                  "t_grass_long": 5,
+                  "t_grass_tall": 1,
                   "t_dirt": 1
               },
               "clear_components": false,                  "//": "if set to true, clear all previously defined 'components' for this terrain. only relevant for 'region_overlay' that override these settings",
@@ -70,11 +71,15 @@
                       "types": {                          "//": "weighted list of terrain and furniture types that make up this component. higher values are more frequent, but are all just relative to others for this component.",
                           "t_tree_young": 128,
                           "t_tree": 32,
-                          "t_tree_birch": 32,
+                          "t_tree_birch": 16,
                           "t_tree_pine": 32,
                           "t_tree_maple": 32,
                           "t_tree_willow": 32,
-                          "t_tree_hickory": 32,
+                          "t_tree_hickory": 16,
+                          "t_tree_walnut": 8,
+                          "t_tree_chestnut": 8,
+                          "t_tree_hazelnut": 2,
+                          "t_tree_beech": 2,
                           "t_tree_blackjack": 8,
                           "t_tree_coffee": 8,
                           "t_tree_apple": 2,
@@ -83,9 +88,11 @@
                           "t_tree_peach": 2,
                           "t_tree_pear": 2,
                           "t_tree_plum": 2,
-                          "t_tree_deadpine": 1,
-                          "t_tree_hickory_dead": 1,
-                          "t_tree_dead": 1
+                          "t_tree_elderberry": 2,
+                          "t_tree_mulberry": 2,
+                          "t_tree_deadpine": 16,
+                          "t_tree_hickory_dead": 16,
+                          "t_tree_dead": 16
                       }
                   },
                   "shrubs_and_flowers": {
@@ -93,7 +100,8 @@
                       "chance": 10,
                       "clear_types": false,
                       "types": {
-                          "t_underbrush": 8,
+                          "t_underbrush": 30,
+                          "t_shrub": 5,
                           "t_shrub_blueberry": 1,
                           "t_shrub_strawberry": 1,
                           "t_shrub": 1,
@@ -137,8 +145,10 @@
               "item_spawn_iterations": 1,
               "clear_groundcover": false,
               "groundcover": {
-                  "t_grass": 2,
-                  "t_dirt": 1
+                  "t_grass_long": 5,
+                  "t_grass_tall": 1,
+				  "t_dirt": 1
+				  
               },
               "clear_components": false,
               "components": {
@@ -149,22 +159,28 @@
                       "types": {
                           "t_tree": 128,
                           "t_tree_young": 128,
-                          "t_tree_birch": 32,
+                          "t_tree_birch": 16,
                           "t_tree_pine": 32,
                           "t_tree_maple": 32,
                           "t_tree_willow": 32,
-                          "t_tree_hickory": 32,
-                          "t_tree_blackjack": 4,
-                          "t_tree_coffee": 4,
-                          "t_tree_apple": 1,
-                          "t_tree_apricot": 1,
-                          "t_tree_cherry": 1,
-                          "t_tree_peach": 1,
-                          "t_tree_pear": 1,
-                          "t_tree_plum": 1,
-                          "t_tree_deadpine": 8,
-                          "t_tree_hickory_dead": 8,
-                          "t_tree_dead": 8
+                          "t_tree_hickory": 16,
+                          "t_tree_walnut": 8,
+                          "t_tree_chestnut": 8,
+                          "t_tree_hazelnut": 2,
+                          "t_tree_beech": 2,
+                          "t_tree_blackjack": 8,
+                          "t_tree_coffee": 2,
+                          "t_tree_apple": 2,
+                          "t_tree_apricot": 2,
+                          "t_tree_cherry": 2,
+                          "t_tree_peach": 2,
+                          "t_tree_pear": 2,
+                          "t_tree_plum": 2,
+                          "t_tree_elderberry": 2,
+                          "t_tree_mulberry": 2,
+                          "t_tree_deadpine": 16,
+                          "t_tree_hickory_dead": 16,
+                          "t_tree_dead": 16
                       }
                   },
                   "shrubs_and_flowers": {
@@ -216,9 +232,10 @@
               "item_spawn_iterations": 1,
               "clear_groundcover": false,
               "groundcover": {
-                  "t_grass": 2,
-                  "t_grass_long": 2,
-                  "t_dirt": 1
+                  "t_grass_long": 3,
+                  "t_grass_tall": 1,
+                  "t_moss": 2,
+				  "t_dirt": 2
               },
               "clear_components": false,
               "components": {
@@ -227,14 +244,27 @@
                       "chance": 40,
                       "clear_types": false,
                       "types": {
-                          "t_tree": 1,
-                          "t_tree_birch": 1,
-                          "t_tree_maple": 4,
-                          "t_tree_willow": 2,
-                          "t_tree_hickory": 1,
-                          "t_tree_deadpine": 1,
-                          "t_tree_hickory_dead": 1,
-                          "t_tree_dead": 1
+                          "t_tree": 40,
+                          "t_tree_young": 80,
+                          "t_tree_pine": 40,
+                          "t_tree_birch": 20,
+                          "t_tree_maple": 40,
+                          "t_tree_willow": 40,
+                          "t_tree_walnut": 8,
+                          "t_tree_chestnut": 8,
+                          "t_tree_hazelnut": 2,
+                          "t_tree_beech": 2,
+                          "t_tree_hickory": 8,
+                          "t_tree_apple": 2,
+                          "t_tree_cherry": 2,
+                          "t_tree_peach": 2,
+                          "t_tree_pear": 2,
+                          "t_tree_plum": 2,
+                          "t_tree_elderberry": 2,
+                          "t_tree_mulberry": 2,
+                          "t_tree_deadpine": 30,
+                          "t_tree_hickory_dead": 30,
+                          "t_tree_dead": 30
                       }
                   },
                   "shrubs_and_flowers": {
@@ -242,8 +272,34 @@
                       "chance": 10,
                       "clear_types": false,
                       "types": {
-                          "t_underbrush": 1,
-                          "t_shrub": 1
+                          "t_underbrush": 30,
+                          "t_shrub": 5,
+                          "t_shrub_blueberry": 1,
+                          "t_shrub_strawberry": 1,
+                          "t_shrub_blackberry": 1,
+                          "t_shrub_raspberry": 1,
+                          "t_shrub_huckleberry": 1,
+                          "t_shrub_grape": 1,
+                          "t_shrub_rose": 1,
+                          "t_shrub_hydrangea": 1,
+                          "f_flower_tulip": 1,
+                          "f_flower_spurge": 1,
+                          "f_chamomile": 1,
+                          "f_dandelion": 1,
+                          "f_datura": 1,
+                          "f_dahlia": 1,
+                          "f_bluebell": 1,
+                          "f_mutpoppy": 1
+                      }
+                  },
+                  "clutter": {
+                      "sequence": 2,
+                      "chance": 75,
+                      "clear_types": false,
+                      "types": {
+                          "t_trunk": 1,
+                          "f_boulder_small": 2,
+                          "f_boulder_medium": 1
                       }
                   },
                   "water": {

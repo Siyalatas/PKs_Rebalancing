@@ -291,7 +291,7 @@
         [ "spaghetti_raw", 1 ],
         [ "macaroni_raw", 1 ],
         [ "noodles_fast", 1 ],
-        [ "potato_irradiated", 1 ],
+        [ "irradiated_potato", 1 ],
         [ "potato", 1 ],
         [ "celery", 1 ],
         [ "irradiated_celery", 1 ],

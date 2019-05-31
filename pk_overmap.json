@@ -49,6 +49,7 @@
       { "point": [ -1, 1, 0 ], "overmap": "forest" },
       { "point": [ 0, -1, 0 ], "overmap": "shelter" },
       { "point": [ 0, -1, -1 ], "overmap": "shelter_under" },
+      { "point": [ 0, -1, 1 ], "overmap": "shelter_roof" },	  
       { "point": [ 0, 0, 0 ], "overmap": "dirtroad2_aban1_east" },
       { "point": [ 1, 1, 0 ], "overmap": "campsite_field_biker_destroyed" }
     ],

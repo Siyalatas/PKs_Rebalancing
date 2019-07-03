@@ -7,7 +7,7 @@
       { "point": [ 1, -1, 0 ], "overmap": "field" },
       { "point": [ 0, 0, 0 ], "overmap": "campsite_north" },
       { "point": [ 1, 0, 0 ], "overmap": "campsite_field_biker_north" },
-      { "point": [ 0, 1, 0 ], "overmap": "s_lot_north" }
+      { "point": [ 0, 1, 0 ], "overmap": "s_lot" }
     ],
     "connections": [ { "point": [ 1, 1, 0 ], "terrain": "road" } ],
     "locations": [ "forest", "swamp" ],
@@ -29,7 +29,7 @@
   {
     "type": "overmap_special",
     "id": "cave_dusk_horror",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "pit_topside_north" }, { "point": [ 0, 0, -1 ], "overmap": "pit_dusk_horror" } ],
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "pit_topside_north" }, { "point": [ 0, 0, -1 ], "overmap": "pit_dusk_horror_north" } ],
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [ 8, -1 ],
     "city_sizes": [ 4, 16 ],
@@ -44,11 +44,11 @@
       { "point": [ -1, -1, 0 ], "overmap": "forest" },
       { "point": [ -1, 0, 0 ], "overmap": "forest" },
       { "point": [ -1, 1, 0 ], "overmap": "forest" },
-      { "point": [ 0, -1, 0 ], "overmap": "shelter" },
-      { "point": [ 0, -1, -1 ], "overmap": "shelter_under" },
-      { "point": [ 0, -1, 1 ], "overmap": "shelter_roof" },	  
+      { "point": [ 0, -1, 0 ], "overmap": "shelter_north" },
+      { "point": [ 0, -1, -1 ], "overmap": "shelter_under_north" },
+      { "point": [ 0, -1, 1 ], "overmap": "shelter_roof_north" },	  
       { "point": [ 0, 0, 0 ], "overmap": "dirtroad2_aban1_east" },
-      { "point": [ 1, 1, 0 ], "overmap": "campsite_field_biker_destroyed" }
+      { "point": [ 1, 1, 0 ], "overmap": "campsite_field_biker_destroyed_north" }
     ],
     "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road", "existing": true } ],
     "locations": [ "forest" ],
@@ -218,7 +218,7 @@
   {
     "type": "overmap_special",
     "id": "spider_pit_close",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "spider_pit_north" }, { "point": [ 0, 0, -1 ], "overmap": "spider_pit_under_north" } ],
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "spider_pit" }, { "point": [ 0, 0, -1 ], "overmap": "spider_pit_under" } ],
     "locations": [ "forest" ],
     "city_distance": [ 0, 10 ],
     "city_sizes": [ 1, 12 ],

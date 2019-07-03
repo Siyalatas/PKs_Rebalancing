@@ -2,60 +2,31 @@
   {
     "type": "overmap_terrain",
     "id": "field",
-    "name": "field",
-    "sym": 46,
-    "color": "brown",
-    "see_cost": 2,
-    "extras": "field",
+    "copy-from": "field",
     "spawns": { "group": "GROUP_FIELD", "population": [ 0, 1 ], "chance": 20 }
   },
   {
     "type": "overmap_terrain",
     "id": "forest",
-    "name": "forest",
-    "sym": 70,
-    "color": "green",
-    "see_cost": 3,
-    "extras": "forest",
+    "copy-from": "forest",
     "spawns": { "group": "GROUP_FOREST", "population": [ 0, 2 ], "chance": 45 }
   },
   {
     "type": "overmap_terrain",
-    "id": "sewer",
-    "name": "sewer",
-    "line_drawing": true,
-    "color": "green",
-    "see_cost": 5,
-    "extras": "subway",
-    "flags": [ "LINEAR" ],
-    "allow_road": true
-  },
-  {
-    "type": "overmap_terrain",
     "id": "crater",
-    "name": "crater",
-    "sym": 79,
-    "color": "red",
-    "see_cost": 3,
+    "copy-from": "crater",
     "extras": "field"
   },
   {
     "type": "overmap_terrain",
     "id": "ants",
-    "name": "ant tunnel",
-    "line_drawing": true,
-    "color": "brown",
-    "see_cost": 5,
-    "flags": [ "LINEAR" ],
+    "copy-from": "ants",
     "extras": "subway"
   },
   {
     "type": "overmap_terrain",
     "id": "ants_food",
-    "name": "ant food storage",
-    "sym": 79,
-    "color": "green",
-    "see_cost": 5,
+    "copy-from": "ants_food",
     "extras": "subway"
   },
   {

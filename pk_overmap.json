@@ -124,15 +124,6 @@
     "type": "overmap_special",
     "id": "Triffid Grove",
     "copy-from": "Triffid Grove",
-    "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "triffid_grove" },
-      { "point": [ 0, 0, -1 ], "overmap": "triffid_roots" },
-      { "point": [ 0, 0, -2 ], "overmap": "triffid_roots" },
-      { "point": [ 0, 0, -3 ], "overmap": "triffid_finale" }
-    ],
-    "city_distance": [ 2, -1 ],
-    "city_sizes": [ 4, 16 ],
-    "occurrences": [ 1, 4 ],
     "spawns": { "group": "GROUP_TRIFFID", "population": [ 350, 950 ], "radius": [ 30, 75 ] }
   },
   {
@@ -154,28 +145,18 @@
     "type": "overmap_special",
     "id": "Fungal Bloom",
     "copy-from": "Fungal Bloom",
-    "locations": [ "land" ],
-    "city_distance": [ 0, -1 ],
-    "occurrences": [ 0, 2 ],
     "spawns": { "group": "GROUP_FUNGI", "population": [ 350, 950 ], "radius": [ 35, 75 ] }
   },
   {
     "type": "overmap_special",
     "id": "Fungal Tower",
     "copy-from": "Fungal Tower",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "fungal_tower", "connect": "road", "existing": true } ],
-    "locations": [ "land" ],
-    "occurrences": [ 0, 2 ],
     "spawns": { "group": "GROUP_FUNGI_TOWER", "population": [ 150, 300 ], "radius": [ 12, 24 ] }
   },
   {
     "type": "overmap_special",
     "id": "Fungal Flowers",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "fungal_flowers" } ],
-    "locations": [ "swamp" ],
-    "city_distance": [ 8, -1 ],
-    "city_sizes": [ 4, 12 ],
-    "occurrences": [ 1, 2 ],
+    "copy-from": "Fungal Flowers",
     "spawns": { "group": "GROUP_FUNGI_FLOWERS", "population": [ 50, 150 ], "radius": [ 20, 45 ] }
   },
   {
@@ -192,19 +173,12 @@
     "type": "overmap_special",
     "id": "Anthill",
     "copy-from": "Anthill",
-    "locations": [ "land" ],
-    "city_distance": [ 3, -1 ],
-    "city_sizes": [ 4, 16 ],
-    "occurrences": [ 1, 5 ],
     "spawns": { "group": "GROUP_ANT", "population": [ 600, 1800 ], "radius": [ 25, 65 ] }
   },
   {
     "type": "overmap_special",
     "id": "Acid Anthill",
     "copy-from": "Acid_Anthill",
-    "city_distance": [ 3, -1 ],
-    "city_sizes": [ 0, 20 ],
-    "occurrences": [ 0, 3 ],
     "spawns": { "group": "GROUP_ANT_ACID", "population": [ 450, 1350 ], "radius": [ 20, 60 ] }
   },
   {
@@ -218,6 +192,7 @@
   {
     "type": "overmap_special",
     "id": "spider_pit_close",
+    "copy-from": "Spider Pit",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "spider_pit" }, { "point": [ 0, 0, -1 ], "overmap": "spider_pit_under" } ],
     "locations": [ "forest" ],
     "city_distance": [ 0, 10 ],
@@ -228,6 +203,7 @@
   {
     "type": "overmap_special",
     "id": "trapdoor_spider_pit_close",
+    "copy-from": "Spider Pit",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "trapdoor_pit_north" }, { "point": [ 0, 0, -1 ], "overmap": "trapdoor_pit_b1_north" } ],
     "locations": [ "field" ],
     "city_distance": [ 0, 8 ],
@@ -238,6 +214,7 @@
   {
     "type": "overmap_special",
     "id": "trapdoor_spider_pit",
+    "copy-from": "Spider Pit",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "trapdoor_pit_north" }, { "point": [ 0, 0, -1 ], "overmap": "trapdoor_pit_b1_north" } ],
     "locations": [ "field" ],
     "city_distance": [ 2, -1 ],
@@ -450,24 +427,8 @@
   },
   {
     "type": "overmap_special",
-    "id": "Pond",
-    "copy-from": "Pond",
-    "city_distance": [ 0, -1 ],
-    "occurrences": [ 1, 10 ]
-  },
-  {
-    "type": "overmap_special",
-    "id": "basin",
-    "copy-from": "basin",
-    "city_distance": [ 0, -1 ],
-    "occurrences": [ 1, 8 ]
-  },
-  {
-    "type": "overmap_special",
     "id": "bog",
     "copy-from": "bog",
-    "city_distance": [ 0, -1 ],
-    "occurrences": [ 0, 3 ],
     "spawns": { "group": "GROUP_BOG", "population": [ 0, 3 ], "chance": 60 }
   },
   {

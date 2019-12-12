@@ -845,6 +845,7 @@
   {
     "type": "item_group",
     "id": "mischw",
+	"subtype": "collection",
     "items": [ [ "fertilizer_chelated", 10 ], [ "clay_lump", 8 ], [ "oxy_torch", 1 ] ]
   },
   {

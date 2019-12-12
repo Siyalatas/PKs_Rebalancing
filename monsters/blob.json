@@ -61,6 +61,8 @@
         "damage_max_instance": [ { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.5 } ]
       }
     ],
+	"regenerates": 10,
+    "regen_morale": true,
     "flags": [
       "SEES",
       "SMELLS",
@@ -70,9 +72,7 @@
       "ACID_BLOOD",
       "ACIDPROOF",
       "NOHEAD",
-      "REGENERATES_50",
       "ABSORBS",
-      "REGEN_MORALE",
       "NOGIB",
       "ATTACKMON"
     ]

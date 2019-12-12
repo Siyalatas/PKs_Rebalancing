@@ -38,7 +38,8 @@
     "starting_ammo": { "bot_fungal_boil": 8 },
     "special_attacks": [ [ "FUNGUS_BRISTLE", 20 ], [ "FUNGUS", 30 ], [ "wound_minor", 30 ], [ "GRENADIER", 60 ] ],
     "death_function": [ "FUNGUS", "DISINTEGRATE" ],
-    "flags": [ "SEES", "NOHEAD", "POISON", "NO_BREATHE", "IMMOBILE", "REGENERATES_10" ]
+	"regenerates": 1,
+    "flags": [ "SEES", "NOHEAD", "POISON", "NO_BREATHE", "IMMOBILE"]
   },
   {
     "id": "mon_fungaloid_young",
@@ -1073,6 +1074,7 @@
     ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BLEED", "BASHES", "POISON", "REGENERATES_10", "PLASTIC" ]
+	"regenerates": 1,
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BLEED", "BASHES", "POISON", "PLASTIC" ]
   }
 ]

@@ -233,6 +233,7 @@
       }
     ],
     "death_function": [ "MELT" ],
+    "regen_morale": true,
     "flags": [
       "SEES",
       "HEARS",
@@ -242,7 +243,6 @@
       "BONES",
       "POISON",
       "PLASTIC",
-      "REGEN_MORALE",
       "BLEED",
       "PATH_AVOID_DANGER_2",
       "SWARMS",
@@ -270,6 +270,7 @@
     "armor_acid": 6,
     "vision_day": 40,
     "vision_night": 5,
+    "regen_morale": true,
     "flags": [
       "SEES",
       "HEARS",
@@ -279,7 +280,6 @@
       "BONES",
       "POISON",
       "PLASTIC",
-      "REGEN_MORALE",
       "BLEED",
       "PATH_AVOID_DANGER_2",
       "SWARMS",

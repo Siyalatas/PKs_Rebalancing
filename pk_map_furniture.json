@@ -6,7 +6,7 @@
     "description": "Looks dangerous, you could attach it to a vehicle.",
     "symbol": "J",
     "color": "ltgray",
-    "move_cost_mod": 1.5,
+    "move_cost_mod": 2,
     "required_str": -1,
     "flags": [ "SHARP", "NO_ITEM", "TRANSPARENT", "MOUNTABLE" ],
     "bash": {
@@ -24,7 +24,7 @@
     "description": "Looks dangerous, you could attach it to a vehicle.",
     "symbol": "/",
     "color": "ltgray",
-    "move_cost_mod": 1.5,
+    "move_cost_mod": 2,
     "required_str": -1,
     "flags": [ "SHARP", "TRANSPARENT", "MOUNTABLE", "ROUGH" ],
     "bash": {

@@ -261,7 +261,7 @@
     "description": " ",
     "symbol": "#",
     "color": "ltgrey",
-    "move_cost": 2.5,
+    "move_cost": 3,
     "flags": [ "TRANSPARENT", "PERMEABLE", "THIN_OBSTACLE", "UNSTABLE", "ROUGH", "SHORT" ],
     "bash": {
       "str_min": 70,

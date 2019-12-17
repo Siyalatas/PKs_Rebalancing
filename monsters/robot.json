@@ -60,7 +60,7 @@
     "armor_cut": 14,
     "vision_night": 20,
     "path_settings": { "max_dist": 25 },
-    "starting_ammo": { "40mm_frag": 100, "556": 1000, "bot_tripod": 2 },
+    "starting_ammo": { "40x46mm_m433": 100, "556": 1000, "bot_tripod": 2 },
     "special_attacks": [ [ "CHICKENBOT", 4 ], [ "GRENADIER", 20 ] ],
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS" ]
   },

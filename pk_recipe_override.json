@@ -655,7 +655,7 @@
         [ "pills_sleep", 10 ],
         [ "poppy_sleep", 15 ]
       ],
-      [ [ "vitamins", 10 ], [ "iodine", 10 ], [ "disinfectant", 4 ], [ "hflesh_powder", 6 ], [ "protein_powder", 5 ] ],
+      [ [ "vitamins", 10 ], [ "iodine", 10 ], [ "disinfectant", 4 ], [ "protein_powder", 5 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },

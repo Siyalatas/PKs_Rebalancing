@@ -369,7 +369,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_black_rat",
@@ -391,7 +391,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_web_s",
@@ -413,7 +413,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_web_omega",
@@ -435,7 +435,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant_s",
@@ -457,7 +457,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant",
@@ -479,7 +479,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant_guardian",

@@ -30,7 +30,7 @@
     "symbol": "/",
     "color": "light_gray",
     "qualities": [ [ "AXE", 3 ] ],
-    "flags": [ "NONCONDUCTIVE" ]
+    "flags": [ "NONCONDUCTIVE", "SHEATH_AXE"  ]
   },
   {
     "id": "battleaxe",

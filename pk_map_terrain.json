@@ -34,7 +34,7 @@
     "name": "sewage",
     "description": "Smells awful, you could swim through it.",
     "symbol": "~",
-    "color": "ltgreen",
+    "color": "light_green",
     "move_cost": 6,
     "flags": [ "TRANSPARENT", "SWIMMABLE", "LIQUID", "FISHABLE", "REDUCE_SCENT" ],
     "examine_action": "water_source"
@@ -45,7 +45,7 @@
     "copy-from": "t_guardrail_bg_dp",
     "name": "guard rail",
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "move_cost": 3,
     "flags": [ "TRANSPARENT", "NOITEM", "MOUNTABLE", "SHORT", "THINOBSTACLE", "ROAD" ],
     "bash": {
@@ -64,7 +64,7 @@
     "name": "metal bars",
     "examine_action": "bars",
     "symbol": "\"",
-    "color": "ltgray",
+    "color": "light_gray",
     "move_cost": 0,
     "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
     "bash": {
@@ -163,7 +163,7 @@
     "name": "iron wrought fence",
     "description": " ",
     "symbol": "LINE_OXOX",
-    "color": "dkgray",
+    "color": "dark_gray",
     "move_cost": 0,
     "flags": [
       "TRANSPARENT",
@@ -193,7 +193,7 @@
     "name": "closed iron gate",
     "description": " ",
     "symbol": "=",
-    "color": "dkgray",
+    "color": "dark_gray",
     "move_cost": 0,
     "flags": [ "TRANSPARENT", "DOOR", "PERMEABLE" ],
     "connects_to": "CHAINFENCE",
@@ -215,7 +215,7 @@
     "name": "open iron gate",
     "description": " ",
     "symbol": ".",
-    "color": "dkgray",
+    "color": "dark_gray",
     "move_cost": 2,
     "flags": [ "TRANSPARENT", "FLAT", "ROAD" ],
     "connects_to": "CHAINFENCE",
@@ -235,7 +235,7 @@
     "name": "locked iron gate",
     "description": " ",
     "symbol": "=",
-    "color": "dkgray",
+    "color": "dark_gray",
     "move_cost": 0,
     "flags": [ "TRANSPARENT", "PERMEABLE" ],
     "connects_to": "CHAINFENCE",
@@ -260,7 +260,7 @@
     "name": "mangled iron fence",
     "description": " ",
     "symbol": "#",
-    "color": "ltgrey",
+    "color": "light_gray",
     "move_cost": 3,
     "flags": [ "TRANSPARENT", "PERMEABLE", "THIN_OBSTACLE", "UNSTABLE", "ROUGH", "SHORT" ],
     "bash": {
@@ -320,7 +320,7 @@
     "name": "tar",
     "description": "Some very flammable tar in a pit, you could probably swim through it.",
     "symbol": "~",
-    "color": "dkgray",
+    "color": "dark_gray",
     "move_cost": 8,
     "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE", "PLACE_ITEM", "SWIMMABLE" ]
   },
@@ -330,7 +330,7 @@
     "name": "sludge",
     "description": "Some flammable sludge in a pit, you could probably swim through it.",
     "symbol": "~",
-    "color": "ltgray",
+    "color": "light_gray",
     "move_cost": 6,
     "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_HARD", "PLACE_ITEM", "SWIMMABLE" ]
   }

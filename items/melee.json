@@ -30,7 +30,7 @@
     "symbol": "/",
     "color": "light_gray",
     "qualities": [ [ "AXE", 3 ] ],
-    "flags": [ "NONCONDUCTIVE" ]
+    "flags": [ "NONCONDUCTIVE", "SHEATH_AXE"  ]
   },
   {
     "id": "battleaxe",
@@ -49,7 +49,7 @@
     "symbol": "/",
     "color": "light_gray",
     "qualities": [ [ "AXE", 2 ] ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ]
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_AXE" ]
   },
   {
     "id": "battletorch",
@@ -181,7 +181,7 @@
     "symbol": "/",
     "color": "brown",
     "qualities": [ [ "AXE", 2 ] ],
-    "flags": [ "NONCONDUCTIVE" ]
+    "flags": [ "NONCONDUCTIVE", "SHEATH_AXE" ]
   },
   {
     "id": "crowbar",
@@ -238,7 +238,7 @@
     "color": "light_gray",
     "techniques": [ "BRUTAL", "stuck_in_1", "stuck_in_3" ],
     "qualities": [ [ "AXE", 2 ] ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ]
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_AXE" ]
   },
   {
     "id": "machete",
@@ -716,7 +716,7 @@
     "symbol": "/",
     "color": "dark_gray",
     "use_action": "PICKAXE",
-    "flags": [ "SPEAR", "DURABLE_MELEE", "NONCONDUCTIVE" ]
+    "flags": [ "SPEAR", "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_AXE" ]
   },
   {
     "id": "primitive_axe",
@@ -732,7 +732,8 @@
     "techniques": [ "repose" ],
     "symbol": "/",
     "color": "light_gray",
-    "qualities": [ [ "AXE", 2 ] ]
+    "qualities": [ [ "AXE", 2 ] ],
+    "flags": ["SHEATH_AXE"]
   },
   {
     "id": "primitive_hammer",
@@ -1130,7 +1131,7 @@
     "volume": 2,
     "bashing": 12,
     "cutting": 6,
-    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE", "SHEATH_AXE" ],
     "to_hit": 1,
     "category": "weapons",
     "qualities": [ [ "AXE", 2 ], [ "CUT", 1 ], [ "HAMMER", 2 ], [ "HAMMER_FINE", 1 ], [ "BUTCHER", 16 ] ]

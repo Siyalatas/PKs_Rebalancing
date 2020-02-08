@@ -1,6 +1,7 @@
 [
   {
     "type": "construction",
+    "id": "pk_makeshift_post_fence",
     "skill": "survival",
     "description": "Construct makeshift post-fence",
     "category": "CONSTRUCT",
@@ -18,6 +19,7 @@
   },
   {
     "type": "construction",
+    "id": "pk_improvised_shelter",
     "skill": "survival",
     "description": "Build Improvised Shelter",
     "category": "CONSTRUCT",
@@ -35,6 +37,7 @@
   },
   {
     "type": "construction",
+    "id": "pk_foxhole_from_mound",
     "description": "Tunnel-Out Foxhole",
     "category": "DIG",
     "required_skills": [ [ "survival", 1 ] ],
@@ -50,6 +53,7 @@
   },
   {
     "type": "construction",
+    "id": "pk_foxhole_from_pit",
     "description": "Dig Foxhole",
     "category": "DIG",
     "required_skills": [ [ "survival", 1 ] ],
@@ -65,6 +69,7 @@
   },
   {
     "type": "construction",
+    "id": "pk_dig_pit_shallow",
     "description": "Dig Pit",
     "category": "DIG",
     "required_skills": [ [ "survival", 0 ] ],
@@ -76,6 +81,7 @@
   },
   {
     "type": "construction",
+    "id": "pk_dig_pit",
     "description": "Dig Pit",
     "category": "DIG",
     "required_skills": [ [ "survival", 0 ] ],

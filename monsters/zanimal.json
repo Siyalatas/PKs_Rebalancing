@@ -514,8 +514,9 @@
     "special_attacks": [ [ "GRAB", 15 ], [ "hammer", 15 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
-    "upgrades": { "half_life": 24, "into": "mon_zombie_fiend_pk" },
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "FILTHY" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "FILTHY" ],
+    "extend": { "upgrades": { "half_life": 24, "into": "mon_zombie_fiend_pk" } },
+    "delete": { "upgrades": { "half_life": 21, "into_group": "GROUP_ZOMBIE_BRUTE" } }
   },
   {
     "id": "mon_zombie_scorched_pk",

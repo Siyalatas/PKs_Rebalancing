@@ -2,10 +2,10 @@
    {
     "type": "snippet",
     "category": "note",
-      { "id": "note_pk_1",
     "text": [
-      "\"WASP APPROACHING CONTINUE Y WASP APPROACHING CONTINUE Y WASP APPROACHING CONTINUE Y WASP APPROACHING WASP APPROACHING\""
-    ]
+      {
+		"id": "note_pk_1",
+		"text": "\"WASP APPROACHING CONTINUE Y WASP APPROACHING CONTINUE Y WASP APPROACHING CONTINUE Y WASP APPROACHING WASP APPROACHING\""
   },
   {
     "id": "note_pk_2",
@@ -114,6 +114,7 @@
     "text": [
       "\"Trapdoor spiders usually spawn above their lairs.  It can be difficult to get to but most trapdoor lairs and web spider lairs have hidden loot in them.\""
     ]
+	}
+	]
   }
- }
 ]

@@ -19,7 +19,7 @@
     "allowed_locs": [
       "sloc_bookstore",
       "sloc_grocery_store",
-      "sloc_police"
+      "sloc_police",
       "sloc_garage",
       "sloc_library",
       "sloc_hospital",

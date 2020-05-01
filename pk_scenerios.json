@@ -18,14 +18,15 @@
     "start_name": "Public Holdout",
     "allowed_locs": [
       "sloc_bookstore",
-      "s_grocery",
-      "police",
-      "s_garage",
-      "s_library",
-      "hospital_2",
-      "mall_a_30",
-      "religous_church",
-      "religous_cemetery",
+      "sloc_grocery_store",
+      "sloc_police"
+      "sloc_garage",
+      "sloc_library",
+      "sloc_hospital",
+      "sloc_mall_food_court",
+      "sloc_mall_loading_area",
+      "sloc_church",
+      "sloc_cemetery",
       "public_cemetery"
     ],
     "flags": [ "SUR_START" ]

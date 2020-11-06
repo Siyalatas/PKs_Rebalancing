@@ -194,8 +194,7 @@
       "difficulty": 6,
       "moves": 60,
       "place_randomly": true,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {
@@ -234,8 +233,7 @@
       "difficulty": 4,
       "moves": 75,
       "place_randomly": true,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {
@@ -325,8 +323,9 @@
     "max_charges": 4,
     "turns_per_charge": 1,
     "revert_to": "soulcube_charging",
-    "artifact_data": { "effects_activated": [ "AEA_HEAL" ] },
-    "use_action": "ARTIFACT"
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "AEA_HEAL", "once_in": 3, "self": true } ] } ]
+    }
   },
   {
     "id": "soulcube_charging",
@@ -417,8 +416,7 @@
       "monster_id": "mon_turret_shockcannon",
       "difficulty": 6,
       "moves": 100,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {
@@ -470,8 +468,7 @@
       "monster_id": "mon_robot_drone",
       "difficulty": 8,
       "moves": 150,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {

@@ -1494,8 +1494,7 @@
     "vision_day": 6,
     "vision_night": 40,
     "special_attacks": [ [ "GRAB", 10 ], [ "scratch", 20 ], { "type": "bite", "cooldown": 15 } ],
-    "burn_into": "mon_zombie_crawler_pk_weak",
-    "upgrades": { "half_life": 15, "into": "mon_zombie_shady_pk" }
+    "burn_into": "mon_zombie_crawler_pk_weak"
   },
   {
     "id": "mon_zombie_shady_pk",

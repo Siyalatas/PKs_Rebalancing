@@ -73,8 +73,8 @@
     "coverage": 96,
     "encumbrance": 24,
     "pocket_data": [
-      { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "3 kg", "moves": 80 },
-      { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "3 kg", "moves": 80 }
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "4 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "4 kg", "moves": 80 }
     ],
     "warmth": 20,
     "material_thickness": 3,
@@ -126,8 +126,8 @@
     "encumbrance": 38,
     "ammo": [ "battery" ],
     "pocket_data": [
-      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "3 kg", "moves": 80 },
-      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "4 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "4 kg", "moves": 80 },
       {
         "magazine_well": "250 ml",
         "pocket_type": "MAGAZINE_WELL",
@@ -177,8 +177,8 @@
     "encumbrance": 24,
     "ammo": [ "battery" ],
     "pocket_data": [
-      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "3 kg", "moves": 80 },
-      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "4 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1750 ml", "max_contains_weight": "4 kg", "moves": 80 },
       {
         "magazine_well": "250 ml",
         "pocket_type": "MAGAZINE_WELL",

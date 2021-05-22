@@ -2,10 +2,10 @@
   {
     "id": "bot_thing_head",
     "type": "TOOL",
-    "name": "thing head spawner",
+    "name": { "str": "thing head spawner" },
     "description": "Spawns a thing head.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -13,19 +13,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_thing_head",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_thing_head", "place_randomly": true }
   },
   {
     "id": "bot_thing_spider",
     "type": "TOOL",
-    "name": "thing spider spawner",
+    "name": { "str": "thing spider spawner" },
     "description": "Spawns a thing spider head.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -33,19 +29,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_thing_spider",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_thing_spider", "place_randomly": true }
   },
   {
     "id": "bot_tripod",
     "type": "TOOL",
-    "name": "tribot spawner",
+    "name": { "str": "tribot spawner" },
     "description": "Spawns an tribot into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -53,19 +45,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_gray",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_tripod",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_tripod", "place_randomly": true }
   },
   {
     "id": "bot_cherub",
     "type": "TOOL",
-    "name": "cherub spawner",
+    "name": { "str": "cherub spawner" },
     "description": "Spawns a cherub, little baby demon.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -73,19 +61,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_cherub",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_cherub", "place_randomly": true }
   },
   {
     "id": "bot_cherub_fly",
     "type": "TOOL",
-    "name": "flying cherub spawner",
+    "name": { "str": "flying cherub spawner" },
     "description": "Spawns a flying cherub, little baby demon.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -93,19 +77,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_cherub_fly",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_cherub_fly", "place_randomly": true }
   },
   {
     "id": "bot_imp_revive",
     "type": "TOOL",
-    "name": "scarred imp spawner",
+    "name": { "str": "scarred imp spawner" },
     "description": "Spawns an scarred imp into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -113,19 +93,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_imp_revive",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_imp_revive", "place_randomly": true }
   },
   {
     "id": "bot_pinky_revive",
     "type": "TOOL",
-    "name": "scarred pinky spawner",
+    "name": { "str": "scarred pinky spawner" },
     "description": "Spawns a scarred pink demon into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -133,19 +109,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_pinky_revive",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_pinky_revive", "place_randomly": true }
   },
   {
     "id": "bot_hell_knight_revive",
     "type": "TOOL",
-    "name": "battered hell knight spawner",
+    "name": { "str": "battered hell knight spawner" },
     "description": "Spawns a battered hell knight into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -153,19 +125,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_hell_knight_revive",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_hell_knight_revive", "place_randomly": true }
   },
   {
     "id": "bot_cacodemon_revive",
     "type": "TOOL",
-    "name": "abhorrent cacodemon spawner",
+    "name": { "str": "abhorrent cacodemon spawner" },
     "description": "Spawns an abhorrent cacodemon into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -178,17 +146,16 @@
       "monster_id": "mon_cacodemon_revive",
       "difficulty": 90,
       "place_randomly": true,
-      "skill1": "survival",
-      "skill2": "melee"
+      "skills": [ "survival", "melee" ]
     }
   },
   {
     "id": "bot_churl_revive",
     "type": "TOOL",
-    "name": "doomed human spawner",
+    "name": { "str": "doomed human spawner" },
     "description": "Spawns an enslaved churl into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -201,17 +168,16 @@
       "monster_id": "mon_churl_revive",
       "difficulty": 90,
       "place_randomly": true,
-      "skill1": "survival",
-      "skill2": "melee"
+      "skills": [ "survival", "melee" ]
     }
   },
   {
     "id": "bot_imp",
     "type": "TOOL",
-    "name": "imp spawner",
+    "name": { "str": "imp spawner" },
     "description": "Spawns an imp into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -219,19 +185,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_imp",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_imp", "place_randomly": true }
   },
   {
     "id": "bot_imp_black",
     "type": "TOOL",
-    "name": "black imp spawner",
+    "name": { "str": "black imp spawner" },
     "description": "Spawns a black imp into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -239,19 +201,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_imp_black",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_imp_black", "place_randomly": true }
   },
   {
     "id": "bot_pinky",
     "type": "TOOL",
-    "name": "pinky spawner",
+    "name": { "str": "pinky spawner" },
     "description": "Spawns a pink demon into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -259,19 +217,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_pinky",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_pinky", "place_randomly": true }
   },
   {
     "id": "bot_lostsoul",
     "type": "TOOL",
-    "name": "lost soul spawn",
+    "name": { "str": "lost soul spawn" },
     "description": "Spawns a lost soul into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -279,19 +233,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_lostsoul",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_lostsoul", "place_randomly": true }
   },
   {
     "id": "bot_revenant",
     "type": "TOOL",
-    "name": "revenant spawn",
+    "name": { "str": "revenant spawn" },
     "description": "Spawns a revenant into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -299,19 +249,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_revenant",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_revenant", "place_randomly": true }
   },
   {
     "id": "bot_hell_knight",
     "type": "TOOL",
-    "name": "hell knight spawner",
+    "name": { "str": "hell knight spawner" },
     "description": "Spawns a hell knight into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -319,19 +265,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_hell_knight",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_hell_knight", "place_randomly": true }
   },
   {
     "id": "bot_hell_baron",
     "type": "TOOL",
-    "name": "hell baron spawner",
+    "name": { "str": "hell baron spawner" },
     "description": "Spawns a hell baron into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -339,19 +281,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_hell_baron",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_hell_baron", "place_randomly": true }
   },
   {
     "id": "bot_mancubus",
     "type": "TOOL",
-    "name": "mancubus spawner",
+    "name": { "str": "mancubus spawner" },
     "description": "Spawns a mancubus into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -359,19 +297,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_mancubus",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_mancubus", "place_randomly": true }
   },
   {
     "id": "bot_cacodemon",
     "type": "TOOL",
-    "name": "cacodemon spawner",
+    "name": { "str": "cacodemon spawner" },
     "description": "Spawns a cacodemon into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -384,17 +318,16 @@
       "monster_id": "mon_cacodemon",
       "difficulty": 90,
       "place_randomly": true,
-      "skill1": "survival",
-      "skill2": "melee"
+      "skills": [ "survival", "melee" ]
     }
   },
   {
     "id": "bot_mechaspider",
     "type": "TOOL",
-    "name": "arachnotron spawner",
+    "name": { "str": "arachnotron spawner" },
     "description": "Spawns an arachnotron into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -402,19 +335,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_mechaspider",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_mechaspider", "place_randomly": true }
   },
   {
     "id": "bot_cyberdemon",
     "type": "TOOL",
-    "name": "cyberdemon spawner",
+    "name": { "str": "cyberdemon spawner" },
     "description": "Spawns a cyberdemon into the world.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -422,26 +351,22 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_cyberdemon",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_cyberdemon", "place_randomly": true }
   },
   {
     "id": "bot_rat",
     "type": "TOOL",
-    "name": "rat spawner",
+    "name": { "str": "rat spawner" },
     "description": "Spawns a black rat into the world.",
-    "weight": 300,
-    "volume": 1,
+    "weight": "300 g",
+    "volume": "250 ml",
     "price": 1000,
     "to_hit": -3,
     "bashing": 6,
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_black_rat",
@@ -453,17 +378,17 @@
   {
     "id": "bot_spider_web_s",
     "type": "TOOL",
-    "name": "baby web spider spawner",
+    "name": { "str": "baby web spider spawner" },
     "description": "Spawns a small web spider into the world.",
-    "weight": 300,
-    "volume": 1,
+    "weight": "300 g",
+    "volume": "250 ml",
     "price": 1000,
     "to_hit": -3,
     "bashing": 6,
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_web_s",
@@ -475,17 +400,17 @@
   {
     "id": "bot_spider_web_omega",
     "type": "TOOL",
-    "name": "omega web spider spawner",
+    "name": { "str": "omega web spider spawner" },
     "description": "Spawns a spider with the omega poison into the world.",
-    "weight": 300,
-    "volume": 1,
+    "weight": "300 g",
+    "volume": "250 ml",
     "price": 1000,
     "to_hit": -3,
     "bashing": 6,
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_web_omega",
@@ -497,17 +422,17 @@
   {
     "id": "bot_trapdoor_s",
     "type": "TOOL",
-    "name": "baby trapdoor spider spawner",
+    "name": { "str": "baby trapdoor spider spawner" },
     "description": "Spawns a small trapdoor spider into the world.",
-    "weight": 300,
-    "volume": 1,
+    "weight": "300 g",
+    "volume": "250 ml",
     "price": 1000,
     "to_hit": -3,
     "bashing": 6,
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant_s",
@@ -519,17 +444,17 @@
   {
     "id": "bot_spider_trapdoor_giant",
     "type": "TOOL",
-    "name": "trapdoor spider spawner",
+    "name": { "str": "trapdoor spider spawner" },
     "description": "Spawns a trapdoor spider into the world.",
-    "weight": 300,
-    "volume": 1,
+    "weight": "300 g",
+    "volume": "250 ml",
     "price": 1000,
     "to_hit": -3,
     "bashing": 6,
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant",
@@ -541,17 +466,17 @@
   {
     "id": "bot_spider_trapdoor_giant_guardian",
     "type": "TOOL",
-    "name": "guardian trapdoor spider spawner",
+    "name": { "str": "guardian trapdoor spider spawner" },
     "description": "Spawns a guardian trapdoor spider into the world.",
-    "weight": 300,
-    "volume": 1,
+    "weight": "300 g",
+    "volume": "250 ml",
     "price": 1000,
     "to_hit": -3,
     "bashing": 6,
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant_guardian",
@@ -563,11 +488,11 @@
   {
     "id": "bot_fungal_boil",
     "type": "TOOL",
-    "name": "boil bomb",
+    "name": { "str": "boil bomb" },
     "//": "Not really 'unseen', but its function is much similar to the others in this file.",
     "description": "A canister with a wad of fungus inside.  Activate to release it.",
-    "weight": 920,
-    "volume": 2,
+    "weight": "920 g",
+    "volume": "500 ml",
     "price": 12500,
     "to_hit": -1,
     "bashing": 2,
@@ -583,17 +508,16 @@
       "difficulty": 4,
       "moves": 75,
       "place_randomly": true,
-      "skill1": "survival",
-      "skill2": "firstaid"
+      "skills": [ "survival", "firstaid" ]
     }
   },
   {
     "id": "bot_shady",
     "type": "TOOL",
-    "name": "shady zed spawner",
+    "name": { "str": "shady zed spawner" },
     "description": "Spawns a shady zombie.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -601,19 +525,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_zombie_shady",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_zombie_shady", "place_randomly": true }
   },
   {
     "id": "bot_hollow",
     "type": "TOOL",
-    "name": "hollow zed spawner",
+    "name": { "str": "hollow zed spawner" },
     "description": "Spawns a hollow zombie.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -621,19 +541,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_zombie_hollow",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_zombie_hollow", "place_randomly": true }
   },
   {
     "id": "bot_blind",
     "type": "TOOL",
-    "name": "blind zed spawner",
+    "name": { "str": "blind zed spawner" },
     "description": "Spawns a blind zombie.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -641,19 +557,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_zombie_blind_pk",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_zombie_blind_pk", "place_randomly": true }
   },
   {
     "id": "bot_grabber",
     "type": "TOOL",
-    "name": "grabber spawner",
+    "name": { "str": "grabber spawner" },
     "description": "Spawns a grabber zombie.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -661,19 +573,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_zombie_grabber",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_zombie_grabber", "place_randomly": true }
   },
   {
     "id": "bot_acidic_pk",
     "type": "TOOL",
-    "name": "Acidic spawner",
+    "name": { "str": "Acidic spawner" },
     "description": "Spawns a very rude acidic zombie.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -681,19 +589,15 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_zombie_acidic_pk",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_zombie_acidic_pk", "place_randomly": true }
   },
   {
     "id": "bot_ant_acid_ultralisk",
     "type": "TOOL",
-    "name": "Ultralisk Spawner",
+    "name": { "str": "Ultralisk Spawner" },
     "description": "Spawns an ultralisk.",
-    "weight": 330,
-    "volume": 3,
+    "weight": "330 g",
+    "volume": "750 ml",
     "price": 60000,
     "to_hit": -3,
     "bashing": 6,
@@ -701,10 +605,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_ant_acid_ultralisk",
-      "place_randomly": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_ant_acid_ultralisk", "place_randomly": true }
   }
 ]

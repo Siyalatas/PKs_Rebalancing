@@ -2,12 +2,13 @@
   {
     "id": "mon_doom_archvile_queen",
     "type": "MONSTER",
-    "name": "archvile",
+    "name": { "str": "archvile" },
     "species": [ "ABERRATION" ],
     "default_faction": "upper_doom",
     "symbol": "A",
     "color": "dark_gray",
     "size": "MEDIUM",
+    "harvest": "zombie",
     "material": [ "flesh" ],
     "diff": 30,
     "aggression": 5,
@@ -22,53 +23,57 @@
     "armor_cut": 15,
     "armor_stab": 5,
     "vision_day": 55,
-    "vision_night": 5,
+    "vision_night": 10,
+    "luminance": 6,
     "hp": 240,
     "death_function": [ "NORMAL" ],
-    "starting_ammo": { "bomblet_archvile": 100 },
-    "special_attacks":
-    [
+    "special_attacks": [
       [ "RESURRECT", 0 ],
       [ "UPGRADE", 0 ],
-      { "id": "hammer",
+      {
+        "id": "hammer",
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 26, "armor_multiplier": 0.8 }
         ]
       },
       {
-            "type": "gun",
-            "cooldown": 30,
-            "gun_type": "bomblet_launcher_rotary",
-            "ammo_type": "bomblet_archvile",
-            "max_ammo": 1000,
-            "fake_str": 10,
-            "fake_dex": 20,
-            "fake_per": 7,
-            "fake_skills": [ ["gun", 9], ["launcher", 9] ],
-            "move_cost": 100,
-            "targeting_cost": 100,
-            "require_targeting_player" : false,
-            "require_targeting_npc" : false,
-            "require_targeting_monster" : false,
-            "ranges": [ [ 0, 20, "AUTO" ] ],
-            "description": "An aching warmth spreads within you!",
-            "no_ammo_sound": "a cry of frustration!"
+        "type": "spell",
+        "spell_data": { "id": "mon_archvile_elec_attack" },
+        "cooldown": 15,
+        "monster_message": "<color_red>A hellmouth is ripped forth!Flame from hell smites %3$s!</color>"
+      },
+      {
+        "type": "gun",
+        "cooldown": 30,
+        "gun_type": "hell_bomblet_launcher_rotary2",
+        "fake_str": 10,
+        "fake_dex": 20,
+        "fake_per": 7,
+        "fake_skills": [ [ "gun", 9 ], [ "launcher", 9 ] ],
+        "move_cost": 100,
+        "targeting_cost": 100,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
+        "ranges": [ [ 0, 20, "AUTO" ] ],
+        "description": "An aching warmth spreads within you!"
       }
     ],
     "description": "A sickly yellow, elongated humanoid.  With almost complete control over its own flames it attacks with pyrokinesis and breathes life into fallen combatants.",
-    "flags": ["SEES", "HEARS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "WARM", "POISON", "NO_BREATHE", "BONES", "QUEEN"],
-    "anger_triggers": ["HURT", "PLAYER_CLOSE", "PLAYER_WEAK"]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "WARM", "POISON", "NO_BREATHE", "QUEEN" ],
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ]
   },
   {
     "id": "mon_imp_revive",
     "type": "MONSTER",
-    "name": "scarred imp",
+    "name": { "str": "scarred imp" },
     "species": [ "ABERRATION" ],
     "default_faction": "doom",
     "symbol": "i",
     "color": "brown",
     "size": "MEDIUM",
+    "harvest": "zombie_leather",
     "material": [ "flesh" ],
     "diff": 12,
     "aggression": 30,
@@ -84,51 +89,52 @@
     "armor_fire": 5,
     "armor_acid": 1,
     "vision_day": 40,
-    "vision_night": 4,
+    "vision_night": 8,
+    "luminance": 1,
     "hp": 85,
     "death_function": [ "NORMAL" ],
-    "starting_ammo": { "flaming_skull": 66 },
     "special_attacks": [
-      ["LUNGE", 40 ],
+      [ "LUNGE", 40 ],
       [ "wound_minor", 30 ],
       [ "hammer", 20 ],
       { "type": "leap", "cooldown": 25, "max_range": 4 },
-      { "type": "bite", "cooldown": 40,
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.80 }
-        ]
+      {
+        "type": "bite",
+        "cooldown": 40,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.8 } ]
       },
       {
         "type": "gun",
-        "cooldown": 5,
-        "gun_type": "hell_ball",
-        "ammo_type": "flaming_skull",
-        "max_ammo": 1000,
+        "cooldown": 8,
+        "gun_type": "hell_ball2",
         "fake_str": 10,
         "fake_dex": 13,
         "fake_per": 7,
         "fake_skills": [ [ "gun", 2 ], [ "pistol", 3 ] ],
         "move_cost": 150,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
-        "ranges": [ [ 1, 10, "DEFAULT" ] ],
-        "description": "The imp lets loose a fireball!",
         "targeting_sound": "RAAAAGHH!",
         "targeting_volume": 25,
-        "no_ammo_sound": "RAAGH?"
+        "ranges": [ [ 2, 17, "DEFAULT" ] ],
+        "description": "The imp lets loose a fireball!"
       }
     ],
     "description": "This humanoid resembles a burnt cenobite.  It attacks with fire and claw, and is the grunt of the demonic armies.",
-    "flags": ["SEES", "HEARS", "WARM", "BASHES", "POISON", "BLEED", "BONES", "CLIMBS", "PUSH_MON", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY"]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "POISON", "CLIMBS", "PUSH_MON", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY" ]
   },
   {
     "id": "mon_pinky_revive",
     "type": "MONSTER",
-    "name": "scarred demon",
-    "species": [ "ABERRATION"],
+    "name": { "str": "scarred demon" },
+    "species": [ "ABERRATION" ],
     "default_faction": "doom",
     "symbol": "D",
     "color": "red",
     "size": "LARGE",
+    "harvest": "exempt",
     "material": [ "flesh" ],
     "diff": 16,
     "aggression": 60,
@@ -148,8 +154,7 @@
     "vision_night": 9,
     "hp": 140,
     "death_function": "NORMAL",
-    "special_attacks":
-    [
+    "special_attacks": [
       [ "hammer", 30 ],
       [ "wound_minor", 30 ],
       [ "GRAB_DRAG", 10 ],
@@ -157,26 +162,39 @@
         "type": "bite",
         "cooldown": 5,
         "accuracy": 4,
-        "damage_max_instance":
-        [
-          {"damage_type": "stab", "amount": 15, "armor_multiplier": 0.5},
-          {"damage_type": "bash", "amount": 24, "armor_multiplier": 0.5}
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.5 }
         ]
       }
     ],
     "description": "A pink-skinned bipedal monster, with jaws that occupy a disproportionate amount of its muscular body.  Melds into the shadows to ambush victims.",
-    "flags": ["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "BLEED", "BONES", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY"]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "PUSH_MON",
+      "GROUP_BASH",
+      "NIGHT_INVISIBILITY",
+      "GROUP_MORALE",
+      "REVIVES",
+      "REVIVES_HEALTHY"
+    ]
   },
   {
     "id": "mon_hell_knight_revive",
     "type": "MONSTER",
-    "name": "battered hell knight",
+    "name": { "str": "battered hell knight" },
     "species": [ "ABERRATION" ],
     "default_faction": "upper_doom",
     "symbol": "K",
     "color": "red_yellow",
     "size": "LARGE",
-    "material": [ "flesh"],
+    "harvest": "zombie_leather",
+    "material": [ "flesh" ],
     "diff": 20,
     "aggression": 100,
     "morale": 100,
@@ -191,15 +209,17 @@
     "armor_acid": 3,
     "armor_fire": 10,
     "vision_day": 50,
-    "vision_night": 4,
+    "vision_night": 10,
+    "luminance": 1,
     "hp": 160,
     "death_function": [ "NORMAL" ],
-    "starting_ammo": { "hell_plasma_k": 66 },
-    "special_attacks":
-    [
+    "special_attacks": [
       [ "SMASH", 60 ],
       [ "GRAB", 40 ],
-      { "id": "hammer", "cooldown": 30, "moves": 220,
+      {
+        "id": "hammer",
+        "cooldown": 30,
+        "moves": 220,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 22, "armor_multiplier": 0.8 },
           { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.8 }
@@ -207,35 +227,48 @@
       },
       {
         "type": "gun",
-        "cooldown": 5,
-        "gun_type": "hell_plasma",
-        "ammo_type": "hell_plasma_k",
-        "max_ammo": 1000,
+        "cooldown": 8,
+        "gun_type": "hell_plasma1",
         "fake_str": 17,
         "fake_dex": 9,
         "fake_per": 10,
-        "fake_skills": [ ["gun", 4 ], [ "rifle", 2 ] ],
+        "fake_skills": [ [ "gun", 4 ], [ "rifle", 2 ] ],
         "move_cost": 150,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
-        "ranges": [ [ 2, 9, "DEFAULT" ] ],
-        "description": "With a clap the knight's hands close!",
         "targeting_sound": "ROOAWNNT!!",
         "targeting_volume": 40,
-        "no_ammo_sound": "Rooar?"
+        "ranges": [ [ 2, 9, "DEFAULT" ] ],
+        "description": "With a clap the knight's hands close!"
       }
     ],
     "description": "A towering monster vaguely reminiscent of a satyr.  As a member of the ruling species of its domains, it is given administrative control.  Its plasma blasts are deadly.",
-    "flags": ["SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "POISON", "BONES", "PUSH_MON", "BLEED", "REVIVES", "REVIVES_HEALTHY"]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "PATH_AVOID_DANGER_1",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "PUSH_MON",
+      "REVIVES",
+      "REVIVES_HEALTHY"
+    ]
   },
   {
     "id": "mon_cacodemon_revive",
     "type": "MONSTER",
-    "name": "abhorrent cacodemon",
+    "name": { "str": "abhorrent cacodemon" },
     "species": [ "ABERRATION" ],
     "default_faction": "doom",
     "symbol": "C",
     "color": "i_red",
     "size": "MEDIUM",
+    "harvest": "arachnid_tainted",
     "material": [ "flesh" ],
     "diff": 20,
     "aggression": 70,
@@ -252,48 +285,51 @@
     "armor_acid": 6,
     "armor_fire": 6,
     "vision_day": 40,
-    "vision_night": 8,
+    "vision_night": 12,
+    "luminance": 1,
     "hp": 140,
     "death_function": [ "NORMAL" ],
-    "starting_ammo": { "hell_plasma_c": 122 },
     "special_attacks": [
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 9,
-        "damage_max_instance": [
-          { "damage_type": "stab", "amount": 38, "armor_multiplier": 0.5 }
-        ]
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 5,
+        "no_infection_chance": 9,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 38, "armor_multiplier": 0.5 } ]
       },
       {
         "type": "gun",
-        "cooldown": 3,
-        "gun_type": "hell_plasma",
-        "ammo_type": "hell_plasma_c",
-        "max_ammo": 1000,
+        "cooldown": 6,
+        "gun_type": "hell_plasma3",
         "fake_str": 16,
         "fake_dex": 5,
         "fake_per": 8,
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 6 ] ],
         "move_cost": 95,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 300,
-        "ranges": [ [ 2, 21, "DEFAULT" ] ],
-        "description": "As the cacodemon opens its mouth a torrent of plasma bursts forth!",
         "targeting_sound": "SKIIIEEEE",
         "targeting_volume": 30,
-        "no_ammo_sound": "HIiiiss?"
+        "ranges": [ [ 2, 21, "DEFAULT" ] ],
+        "description": "As the cacodemon opens its mouth a torrent of plasma bursts forth!"
       }
     ],
     "description": "A dark red sphere with wicked teeth.  Its single eye lights up as it expels plasma from its mouth.",
-    "flags": [ "SEES", "HEARS", "FLIES", "POISON", "ARTHROPOD_BLOOD", "BLEED", "BASHES", "CHITIN", "BONES", "FAT", "PUSH_MON", "REVIVES", "REVIVES_HEALTHY" ]
+    "flags": [ "SEES", "HEARS", "FLIES", "POISON", "ARTHROPOD_BLOOD", "BASHES", "PUSH_MON", "REVIVES", "REVIVES_HEALTHY" ]
   },
   {
     "id": "mon_doom_churl_revive",
     "type": "MONSTER",
-    "name": "enslaved churle",
+    "name": { "str": "enslaved churle" },
     "description": "A tortured slave; a living survivor, beaten, starved, wearing tattered rags and wielding a crude weapon.  They look hungry enough to eat anything.",
     "species": [ "MAMMAL" ],
     "default_faction": "doom",
     "symbol": "@",
     "color": "red",
     "size": "MEDIUM",
+    "harvest": "human",
     "material": [ "flesh" ],
     "diff": 10,
     "hp": 65,
@@ -307,17 +343,11 @@
     "dodge": 5,
     "armor_bash": 5,
     "armor_cut": 5,
-    "death_drops":
-    {
-      "subtype": "collection",
-      "groups":
-      [
-        [ "spearmelee_pk", 95 ]
-      ]
-    },
+    "death_drops": { "subtype": "collection", "groups": [ [ "spearmelee_pk", 95 ] ] },
     "special_attacks": [
       [ "wound_minor", 30 ],
-      { "id": "scratch",
+      {
+        "id": "scratch",
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.85 },
           { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.85 }
@@ -325,8 +355,20 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "POISON", "CLIMBS", "LEATHER", "BONES", "REVIVES", "REVIVES_HEALTHY" ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PATH_AVOID_DANGER_1",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "HUMAN",
+      "POISON",
+      "CLIMBS",
+      "REVIVES",
+      "REVIVES_HEALTHY"
+    ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_DIED", "MEAT" ]
-    }
+  }
 ]
